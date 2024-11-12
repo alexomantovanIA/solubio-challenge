@@ -47,7 +47,7 @@ Este documento descreve a proposta de arquitetura para o chatbot da Dra. Jô, de
 - **Fluxo de Dados**: As mensagens dos usuários são recebidas nos canais de comunicação e enviadas ao Google Dialogflow para interpretação. O Dialogflow encaminha as solicitações ao API Gateway, que aciona as Lambda Functions para executar a lógica de negócios e consultar dados no DynamoDB, RDS ou S3, conforme necessário.
 
 <p align="center">
-<a href= ""><img src="arquitetura-dra-jo.drawio.png" alt="Diagrama da Arquitetura do Chatbot Dra Jô" border="0" width=40% height=40%></a>
+<a href= ""><img src="dra-jo.png" alt="Diagrama da Arquitetura do Chatbot Dra Jô" border="0" width=40% height=40%></a>
 </p>
 
 ## Descrição dos Elementos
